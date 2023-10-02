@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<style>
+    html {
+        background-color: #000;
+        text-align: center;
+    }
+
+    h1 {
+        color: #FFF;
+    }
+
+    button:hover {
+        background-color: #0000FF;
+        color: #FFFF00;
+        cursor: pointer;
+    }
+</style>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+    <title>Light Bulb</title>
+</head>
+<body>
+    <header>
+        <h1>Javascript - Light bulb</h1>
+    </header>
+    <main>
+        <img id="lightBulb" title="Light Bulb" src="imgs/light_off.png" />
+        <hr />
+        <button id="turnOn" type="button" onclick="on()">Turn on</button>
+        <button id="turnOff" type="button" onclick="off()">Turn off</button>
+        <button id="flick" type="button" onclick="flick()">Flick</button>
+        <button id="break" type="button" onclick="crack()">Break</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
